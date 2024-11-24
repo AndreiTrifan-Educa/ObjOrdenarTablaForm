@@ -1,0 +1,38 @@
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+caption{
+    margin-bottom: 10px;
+}
+th{
+    background-color: #dcdfe2;
+    margin-bottom: 10px;
+}
+th:first-of-type{
+    background-color: #b3b5b8;
+}
+th:nth-of-type(2):hover,th:nth-of-type(3):hover,th:nth-of-type(4):hover,th:nth-of-type(5):hover{
+    background-color: #b3b5b8;
+    cursor: pointer;
+}
+
+
+td{ 
+    border-bottom: 1px solid #ccc; /* Borde solo en la parte inferior de cada fila */
+    text-align: center;
+}
+tr:first-child td{
+    padding-top: 10px; /* Añade espacio extra solo en el primer tr */
+}
+  
+tr{
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc; /* Borde solo en la parte inferior de cada fila */
+}
+body{
+    display: flex;
+}
+form{
+    margin-right: 150px;
+    margin-left: 50px;
+}
